@@ -3,7 +3,6 @@ package string.programs;
 public class FindDuplicateChar {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		System.out.println("Duplicate Characters are ");
 		String s = "my name is aditi";
 		int count = 0;
