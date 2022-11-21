@@ -7,6 +7,8 @@ public class ArmstrongNumber {
 	public static void main(String[] args) {
 		System.out.print("Enter the number: ");
 		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("I made a new change");
 		int num = sc.nextInt();
 		//int num = 123;
 		int t1 = num;
