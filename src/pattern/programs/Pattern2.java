@@ -1,4 +1,4 @@
-package basic.programs;
+package pattern.programs;
 
 public class Pattern2 {
 
