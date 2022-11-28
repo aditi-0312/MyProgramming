@@ -23,20 +23,28 @@ public class NumericPattern4 {
 			}
 			System.out.println();
 		}
-		
+
 		System.out.println("NEXT");
-		
-		for (int i = 0; i <= 4; i++) {
-			if (i % 2 != 0) {
-				for (int j = 1; j <= 9; j++) {
-					System.out.print("0");
-				}
-			} else {
-				for (int k = 1; k <= 9; k++) {
+
+		int lines = 4;
+		int i, j;
+		for (i = 1; i <= lines; i++) {// this loop is used to print lines
+			for (j = 1; j <= lines; j++) {// this loop is used to print * in a line
+				if (i == j)
 					System.out.print("*");
-				}
+				else
+					System.out.print("0");
 			}
-			System.out.println();
+			j--;
+			System.out.print("*");
+			while (j >= 1) {// this loop is used to print * in a line
+				if (i == j)
+					System.out.print("*");
+				else
+					System.out.print("0");
+				j--;
+			}
+			System.out.println("");
 		}
 	}
 

@@ -6,7 +6,6 @@ import java.util.List;
 import java.util.Scanner;
 
 public class HCF {
-
 	public static void main(String[] args) {
 		List<Integer> fx = new ArrayList<>();
 		List<Integer> fy = new ArrayList<>();
@@ -42,5 +41,4 @@ public class HCF {
 		
 		System.out.println("HCF is = " + Collections.max(fy));
 	}
-
 }
