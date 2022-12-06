@@ -1,6 +1,6 @@
 package pattern.programs;
 
-public class NumberPattern9 {
+public class NumericPattern9 {
 
 	public static void main(String[] args) {
 		int lines = 10;

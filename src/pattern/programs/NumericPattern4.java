@@ -26,7 +26,7 @@ public class NumericPattern4 {
 
 		System.out.println("NEXT");
 
-		int lines = 4;
+ 		int lines = 4;
 		int i, j;
 		for (i = 1; i <= lines; i++) {// this loop is used to print lines
 			for (j = 1; j <= lines; j++) {// this loop is used to print * in a line

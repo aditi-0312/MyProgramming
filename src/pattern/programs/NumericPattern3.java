@@ -3,10 +3,11 @@ package pattern.programs;
 public class NumericPattern3 {
 
 	public static void main(String[] args) {
-
-		for (int i = 1; i <= 5; i++) {
-			for (int j = 5; j >= i; j--) {
-				System.out.print(j + " ");
+		int n = 5;
+		for (int i = 1; i <= n; i++) {
+			int p = 5;
+			for (int j = i; j <= n; j++) {
+				System.out.print(p-- + " ");
 			}
 			System.out.println();
 		}
@@ -21,6 +22,8 @@ public class NumericPattern3 {
 			}
 			System.out.println();
 		}
+
+		
 	}
 
 }
