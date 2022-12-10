@@ -1,12 +1,11 @@
 package searching.sorting.programs;
 
-import java.io.ByteArrayInputStream;
 import java.util.Arrays;
 
 public class BinarySearch {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		int[] arr = { 7, 8, 5, 3, 9, 0, };
 		int key = 6;
 
