@@ -3,7 +3,6 @@ package searching.sorting.programs;
 public class BubbleSortInt {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		int[] a = { 3, 7, 4, 9, 2 };
 		int temp = 0;

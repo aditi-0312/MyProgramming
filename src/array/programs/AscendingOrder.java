@@ -3,7 +3,6 @@ package array.programs;
 public class AscendingOrder {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		int[] arr= {7,6,9,5,4,1};
 		int temp=0;
