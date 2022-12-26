@@ -48,7 +48,7 @@ public class ATMProgram {
 
 				// add the deposit amount to the total balanace
 				balance = balance + deposit;
-				System.out.println("Your Money has been successfully depsited");
+				System.out.println("Your Money has been successfully deposited");
 				System.out.println("");
 				break;
 

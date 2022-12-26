@@ -15,7 +15,7 @@ public class HCF {
 		System.out.print("enter the first no. = ");
 		int x = sc.nextInt();
 
-		System.out.print("enter the first no. = ");
+		System.out.print("enter the second no. = ");
 		int y = sc.nextInt();
 
 		int factorNumx = 1;

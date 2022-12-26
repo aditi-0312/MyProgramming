@@ -3,7 +3,6 @@ package string.programs;
 public class MaxOcurringCharacter {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		String s = "aditii";
 		int[] a = new int[127];

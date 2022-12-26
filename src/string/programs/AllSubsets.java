@@ -3,7 +3,6 @@ package string.programs;
 public class AllSubsets {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		String str = "FUN";  
         int len = str.length();  
