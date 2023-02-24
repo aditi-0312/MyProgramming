@@ -3,7 +3,7 @@ package searching.sorting.programs;
 public class SelectionSort {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		int []a= {38,52,9,18,6,62,13};
 		int min,temp=0;
 		
